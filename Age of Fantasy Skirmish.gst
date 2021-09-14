@@ -58,7 +58,7 @@
         <modifier type="set" field="name" value="2x Hand Weapons"/>
       </modifiers>
       <profiles>
-        <profile id="a4d8-b02c-f151-dfd7" name="2x Hand Weapons" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+        <profile id="a4d8-b02c-f151-dfd7" name="Hand Weapon" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
             <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
@@ -76,7 +76,7 @@
         <modifier type="set" field="name" value="2x Hand Weapons"/>
       </modifiers>
       <profiles>
-        <profile id="7407-dda8-2543-f5c0" name="2x Hand Weapons" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+        <profile id="7407-dda8-2543-f5c0" name="Hand Weapon" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
             <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">3</characteristic>
@@ -94,7 +94,7 @@
         <modifier type="set" field="name" value="2x Hand Weapons"/>
       </modifiers>
       <profiles>
-        <profile id="dd59-3882-82d3-6cf6" name="2x Hand Weapons" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+        <profile id="dd59-3882-82d3-6cf6" name="Hand Weapon" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
             <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">2</characteristic>
@@ -364,6 +364,9 @@
       <infoLinks>
         <infoLink id="dc57-21d9-9475-93fa" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="09e8-9d91-2417-6db9" name="2x Pistols" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -379,6 +382,9 @@
       <infoLinks>
         <infoLink id="e09b-5a63-816b-d87d" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="058b-0f4e-36b6-f223" name="Lance (A1)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -454,6 +460,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4ba8-c6ea-8da9-a678" name="Crossbow" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -469,6 +478,9 @@
       <infoLinks>
         <infoLink id="6c07-6511-0fa9-eeda" name="Rending" hidden="false" targetId="84f8-1497-2a62-1e50" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="47b2-44f0-0eb9-8176" name="Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -484,6 +496,9 @@
       <infoLinks>
         <infoLink id="8aab-9dc4-3c1d-fca9" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5dd6-194b-00da-b8d1" name="Shortbow" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -496,6 +511,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a019-568a-7dea-947e" name="Longbow" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -508,6 +526,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="075c-a0d7-cca5-5675" name="Throwing Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -520,8 +541,63 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="ac50-4fcb-2823-a56a" name="Command Group" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="5a0e-ed4b-6c9b-45f1" value="3.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a0e-ed4b-6c9b-45f1" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2599-f28b-0ba9-ddab" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d06d-daf2-f388-c0f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9093-58f3-dd1b-857d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="60c9-b209-d5ea-126f" name="Command Groups" hidden="false" targetId="5498-f3f4-72cd-ffb8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a20a-427e-c334-52ec" name="Music" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d32-0b11-ee13-ee81" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fd0-9ead-2caf-0bb3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2918-f109-10c0-06fb" name="Command Groups" hidden="false" targetId="5498-f3f4-72cd-ffb8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e9a4-822e-e889-0eae" name="Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b4a7-9ae0-58ea-09d5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="897f-c4ea-edd0-1875" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d383-34d5-7e3c-4dd7" name="Command Groups" hidden="false" targetId="5498-f3f4-72cd-ffb8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="5498-f3f4-72cd-ffb8" name="Command Groups" publicationId="3e78-c94e-cd84-9802" hidden="false">
       <description>When preparing your army you may only have one of each of the following upgrades (across the entire army).
