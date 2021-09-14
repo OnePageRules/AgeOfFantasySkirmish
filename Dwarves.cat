@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2aa0-e563-e4c6-9979" name="Dwarves" revision="1" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="fa7e-2f5d-e3ed-1664" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="073c-7278-586b-1fc6" name="Dwarves v2.9"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="cd0e-ea8b-a292-d553" name="Dwarf Lord" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5d4f-c4b8-60e1-f82a" name="Dwarf Lord" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="3245-30e0-1640-60e0" value="Fearless, Grudge, Hero, Slow, Tough(3)">
+              <conditions>
+                <condition field="selections" scope="cd0e-ea8b-a292-d553" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="550c-cb56-8ef0-4527" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Hero, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="18f8-96ef-1441-09e8" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="81a2-c7b3-db3d-52c0" name="Hero" hidden="false" targetId="b321-a549-78ac-73e4" type="rule"/>
+        <infoLink id="5303-a913-8017-3da6" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+        <infoLink id="c522-c9c9-d3cb-9910" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3821-2344-6bc6-49ac" name="New CategoryLink" hidden="false" targetId="7dbf-9ff1-ee5d-3122" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ff94-47e1-9f4b-2234" name="Upgrade List C" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="550c-cb56-8ef0-4527" name="Grudge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1935-3b41-0fa9-055b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="35e8-cf0a-791f-902e" name="Grudge" hidden="false" targetId="c32a-433c-c08d-e1a9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dcbb-c366-1ae6-8690" name="Beast" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0764-1558-36c0-d16c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c49f-b544-39c7-f563" name="Beast" hidden="false" typeId="cba9-e7b0-fa07-ff2f" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Special Rules" typeId="a53a-6399-16ae-e98f">Impact(1), Swift</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="886b-ef80-b37e-2925" name="Claws" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+                    <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                    <characteristic name="AP" typeId="4c20-cf91-0aef-5454">-</characteristic>
+                    <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c2f1-5ea5-0edd-9b25" name="Impact(X)" hidden="false" targetId="0e1e-2c09-7f38-4092" type="rule"/>
+                <infoLink id="f7fc-db70-3f26-0060" name="Swift" hidden="false" targetId="ae8c-e1e3-66bb-ec4e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cd44-caf4-355f-c5da" name="Upgrade List A" hidden="false" collective="false" import="true" targetId="ecff-62a8-7f3a-a066" type="selectionEntryGroup"/>
+        <entryLink id="6c82-1f98-b143-d6eb" name="Upgrade List B" hidden="false" collective="false" import="true" targetId="6770-5543-43ef-0ca5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e07-ca5a-241b-abf2" name="Berserker Lord" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2744-5a98-3c18-379a" name="Berserker Lord" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Furious, Hero, Slayer, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d90b-2780-d1d7-7a04" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="fa72-1e6c-734e-b786" name="Furious" hidden="false" targetId="990b-f4c7-ba03-73c7" type="rule"/>
+        <infoLink id="d28f-921b-8ac7-4143" name="Hero" hidden="false" targetId="b321-a549-78ac-73e4" type="rule"/>
+        <infoLink id="1a74-ae41-126a-cb52" name="Slayer" hidden="false" targetId="284a-9d3e-b2d5-3ae6" type="rule"/>
+        <infoLink id="a33f-a4ad-9d65-ee31" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+        <infoLink id="d096-5406-9353-204e" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="24f9-602d-5dc0-3f89" name="New CategoryLink" hidden="false" targetId="7dbf-9ff1-ee5d-3122" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9806-fca8-6cc3-bb9c" name="2x Berserker Axes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c61b-bedd-9132-c38b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5980-bc49-1553-bc07" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6bb4-8de1-5f19-5474" name="Berserker Axe" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+                <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">3</characteristic>
+                <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+                <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4bd1-d3b7-7322-b091" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fb0-1f7d-4856-2b8f" name="Engineer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b3fa-cac6-22bb-312a" name="Engineer" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Hero, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="87b3-a9ac-ef4b-8fca" name="Hero" hidden="false" targetId="b321-a549-78ac-73e4" type="rule"/>
+        <infoLink id="923e-5c2e-cc9c-b315" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+        <infoLink id="f166-fee2-399e-8e20" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8ed4-b9e0-e8d5-fca9" name="New CategoryLink" hidden="false" targetId="7dbf-9ff1-ee5d-3122" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7b12-d3e9-9b5b-59f0" name="Upgrade List D" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3be-8751-cc6a-30d2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4cef-7c68-4b49-8c54" name="Flame-Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="fb1b-7723-7fa3-e68f" name="Flame-Rifle" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="03fd-9214-f39f-4e09">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">6</characteristic>
+                    <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+                    <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="4c7f-d765-0135-ea1c" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="22e7-61fc-f497-11af" name="Organ-Rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f84b-27f7-9fd8-98a9" name="Organ-Rifle" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="03fd-9214-f39f-4e09">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">12</characteristic>
+                    <characteristic name="AP" typeId="4c20-cf91-0aef-5454">-</characteristic>
+                    <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="95e8-7c5a-4202-7d15" name="Upgrade List A" hidden="false" collective="false" import="true" targetId="ecff-62a8-7f3a-a066" type="selectionEntryGroup"/>
+        <entryLink id="659c-88b0-4172-2afb" name="Upgrade List B" hidden="false" collective="false" import="true" targetId="6770-5543-43ef-0ca5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78bc-7d1a-2c81-fda5" name="Rune Master" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9f43-9003-bee0-5c0f" name="Rune Master" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="3245-30e0-1640-60e0" value="Hero, Slow, Tough(3), Wizard(2)">
+              <conditions>
+                <condition field="selections" scope="78bc-7d1a-2c81-fda5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9383-c6f5-9d44-1f5f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Hero, Slow, Tough(3), Wizard(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7423-c859-05f0-7f67" name="Hero" hidden="false" targetId="b321-a549-78ac-73e4" type="rule"/>
+        <infoLink id="6e83-0d6f-9434-4065" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+        <infoLink id="fb18-8245-4a96-13e3" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+        <infoLink id="9f3e-9c0c-a178-abe0" name="Wizard Spells (Dwarves)" hidden="false" targetId="b8a7-2041-7a21-dfff" type="rule"/>
+        <infoLink id="bf7a-aa56-3aa0-f4ed" name="Wizard(X)" hidden="false" targetId="55d8-6dec-0891-a23e" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f285-df3e-f2cf-b35e" name="New CategoryLink" hidden="false" targetId="7dbf-9ff1-ee5d-3122" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="27c5-8aa0-7bfd-7ef8" name="Upgrade List E" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9383-c6f5-9d44-1f5f" name="Wizard(2)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f6f-96d1-73a5-99b6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="745c-cf79-a280-e30a" name="Upgrade List A" hidden="false" collective="false" import="true" targetId="ecff-62a8-7f3a-a066" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8e0-62d8-b3e0-5654" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a8c5-7a9f-f6e8-0a9c" name="Warrior" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">4+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7442-2791-89c9-88d0" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e581-a819-74d5-43f3" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e2f3-028e-0c55-4a36" name="Warriors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0206-6de9-b2e1-22ca" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf5-7097-3325-2126" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fa75-1235-912a-4b13" name="Upgrade List G" hidden="false" collective="false" import="true" defaultSelectionEntryId="a5c3-7e41-ea70-8d93">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61ba-03eb-78a8-a553" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1c3-b434-60fd-70ea" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a5c3-7e41-ea70-8d93" name="Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="dd02-3198-0334-dcc7" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="6ca6-fd7f-c3d4-83a3" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d79-9a06-1642-567b" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bf4-8274-3f5d-4f2a" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3dd7-a15c-515e-4024" name="Great Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="7871-88db-a89c-7b4f" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="96f5-4bb8-2fd8-e313" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c8-e6f6-20bc-8774" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a6a-88cd-a1e5-fb8b" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="868d-7aa0-0331-f95e" name="2x Hand Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="c3f6-bd4d-6803-8203" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="e436-bd35-d3f8-d833" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b64d-dfb1-baf9-2493" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5495-2cf6-ddef-d3ec" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4031-4a3b-d737-c497" name="Halberds" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="cc5b-a3ff-8c3c-fccd" name="Halberd (A1)" hidden="false" collective="false" import="true" targetId="8819-ca24-e478-86f5" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb74-76ee-fc9d-2009" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409e-5be2-e5a3-3bd3" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0253-5cfd-e7d3-5f12" name="Spears" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="2b33-cd37-d6ee-5deb" name="Spear (A1)" hidden="false" collective="false" import="true" targetId="7b55-668e-4949-2de4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da7b-7d81-9ab9-c4ce" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25e-d67a-bc0f-fbae" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="11d6-6513-6808-42a0" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6abf-170c-ce54-b1c0" name="Berserker" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8cf3-929c-6860-fcc2" name="Berserker" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">4+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">5+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Furious, Slayer, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0f03-b49c-9d01-b88f" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="070f-2a05-2cbe-d800" name="Furious" hidden="false" targetId="990b-f4c7-ba03-73c7" type="rule"/>
+        <infoLink id="c26a-8ac0-4295-dbd0" name="Slayer" hidden="false" targetId="284a-9d3e-b2d5-3ae6" type="rule"/>
+        <infoLink id="1142-2e60-9573-fe67" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c49b-ae2c-95e8-ba02" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1549-5fb0-4e13-e21f" name="2x Berserker Axes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48b7-64ea-db3f-a233" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c99-6a83-9d96-ce69" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4d18-7066-03a4-1a82" name="Berserker Axe" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+                <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+                <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f1d6-3d4d-6291-1752" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="92fc-9836-75a6-80ce" name="Miner" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1d15-c79f-2b92-c9b3" name="Miner" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">4+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Ambush, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="25c9-5381-c3c3-315b" name="Ambush" hidden="false" targetId="6e44-9498-69ea-96fd" type="rule"/>
+        <infoLink id="735e-a4cd-97cb-e547" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9c3a-8cb1-0474-3e16" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="048c-6308-f878-7b51" name="Upgrade List H" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="15a8-978d-b36a-eb84" name="Upgrade with:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="1e33-6f74-5ffc-4712" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="a0dd-a1b3-1242-27ce" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ac-c59e-9d24-5885" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="80b3-adff-e7a9-920d" name="Replace Great Weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0b7b-7b21-7095-4820">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ba0-661d-5451-1510" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabb-d829-ab3f-67df" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2a5a-df1e-d59f-1c1d" name="Mining Drill" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="4994-2447-7c26-e710" name="Mining Drill" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+                        <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                        <characteristic name="AP" typeId="4c20-cf91-0aef-5454">3</characteristic>
+                        <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Drill</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="c446-79e9-55e5-41cf" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+                    <infoLink id="4d24-100a-8403-894c" name="Drill" hidden="false" targetId="0f14-81db-fbbb-891a" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="0b7b-7b21-7095-4820" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="96f5-4bb8-2fd8-e313" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f6d0-a3fc-76dd-c189" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb4-ac4a-076c-69ad" name="Veteran" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f153-0aa1-048d-32cb" name="Veteran" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9677-99f9-2483-6510" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="dd13-2160-62ca-238d" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ec41-17b9-885c-67db" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="170c-3b4b-e6e9-9782" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+        <entryLink id="38ba-05c2-992b-825a" name="Upgrade List I" hidden="false" collective="false" import="true" targetId="9444-11b6-cc9f-7e8e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2090-9138-6ec0-a87d" name="Elite" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="422c-e5c9-2f89-f710" name="Elite" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="12ef-2c2d-5d83-8231" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="6533-895b-5b84-85c0" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fc95-8d74-b6fb-5d8b" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6b4-5f12-34b2-4a35" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+        <entryLink id="2519-c5e1-e303-eba5" name="Great Weapon (A2)" hidden="false" collective="false" import="true" targetId="0036-47da-cdc0-816d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e79-6d32-d950-0e14" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e10e-12cf-3014-b18f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cda1-c9c2-210f-42bb" name="Iron Warrior" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6948-6bf7-cd13-2239" name="Iron Warrior" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">2+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7515-5f2a-38af-915c" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="1e74-ee87-5619-64df" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e49d-5a38-9e3f-dd65" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f1e6-d9bb-aae6-1fc1" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+        <entryLink id="187a-a655-45ab-9018" name="Upgrade List I" hidden="false" collective="false" import="true" targetId="9444-11b6-cc9f-7e8e" type="selectionEntryGroup"/>
+        <entryLink id="e986-3108-89b0-c733" name="Upgrade List J" hidden="false" collective="false" import="true" targetId="d6a5-04f2-6c63-909e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be63-6555-02c2-5a29" name="Golem" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4c7f-9e66-8ee3-62ec" name="Golem" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">4+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bdd8-fa65-a46d-d3c3" name="Claws" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">3</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c545-7795-e071-d999" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+        <infoLink id="18f8-5698-f698-a2ae" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+        <infoLink id="8c40-1906-e72d-ff62" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fa62-3762-ee11-355e" name="New CategoryLink" hidden="false" targetId="7404-8185-239f-8a34" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb96-efb2-146a-243c" name="Steam-Power Suit" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1d9e-61e7-61d8-7e1b" name="Steam-Power Suit" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Slow, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2a1b-84be-c1a4-45b1" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+        <infoLink id="1ed3-e266-2748-66b3" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+        <infoLink id="ab18-358a-26d3-109b" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="61ed-dc9f-929a-8169" name="New CategoryLink" hidden="false" targetId="7404-8185-239f-8a34" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b635-7043-f370-84d9" name="Upgrade List K" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ddf7-401d-b534-8e02" name="Steam-Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006f-4949-337a-2c12" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6b5a-ae52-f8af-ed35" name="Steam-Gun" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="03fd-9214-f39f-4e09">24&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                    <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+                    <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d7f9-7236-cbbc-714d" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a34a-0bd0-3c4f-21e6" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="0217-4731-040c-f688" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea5d-507a-611a-09fe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4660-c058-d153-de91" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01a3-2c76-f0d0-e152" name="Marksmen" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d471-07ee-fb1f-62ef" name="Marksmen" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">4+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">5+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5faa-d6a7-9186-61f6" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f336-71b7-754a-5a86" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e940-889d-d7d9-5ef3" name="Marksmen" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e14-a15f-b045-503c" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8e5-0391-e598-9507" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cb3a-1049-490b-f594" name="Upgrade List L" hidden="false" collective="false" import="true" defaultSelectionEntryId="4352-d2db-69af-443c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abbe-d08f-0b1e-ae65" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ee-c594-a074-1cd0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4352-d2db-69af-443c" name="Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="2ac7-329e-d132-27b3" name="Replace one Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="4690-aebf-ae7c-7b11">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="695d-3123-5043-a585" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d38-423e-69e4-c4b0" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="4690-aebf-ae7c-7b11" name="Rifle" hidden="false" collective="false" import="true" targetId="47b2-44f0-0eb9-8176" type="selectionEntry"/>
+                    <entryLink id="4584-3de1-419e-d282" name="2x Pistols" hidden="false" collective="false" import="true" targetId="09e8-9d91-2417-6db9" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="049d-c1bf-4bd1-a3b7" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9684-4b11-3487-4809" name="Crossbows" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="5135-5acc-7649-a8b6" name="Crossbow" hidden="false" collective="false" import="true" targetId="4ba8-c6ea-8da9-a678" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73a-31b0-cf3b-e0e0" type="min"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ee9-d8f3-fc84-bb80" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6442-a6cc-3d19-613c" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+        <entryLink id="e603-3697-7cd7-a625" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="6ca6-fd7f-c3d4-83a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a636-a624-2545-fd9d" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbe2-a076-eb8c-952b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ca7-1685-ad7d-90a5" name="Ranger" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="84fb-d167-6757-84c5" name="Ranger" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">4+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">5+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Scout, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="61c4-f835-1eb1-7f69" name="Scout" hidden="false" targetId="9797-5f0c-9aaf-e62f" type="rule"/>
+        <infoLink id="cd2a-9415-cf47-2161" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e061-7b79-6012-f71a" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5f0b-ebda-8f22-5444" name="Upgrade List M" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="add0-4c2b-5e2c-55c6" name="Throwing Axes" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c233-736e-26e1-753d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="40d1-54ee-97c1-edd2" name="Throwing Axes" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="03fd-9214-f39f-4e09">12&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                    <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+                    <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="2718-367c-5786-0ddf" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bd86-8ce7-b667-0da4" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+        <entryLink id="2f85-df19-2f22-2c3e" name="Crossbow" hidden="false" collective="false" import="true" targetId="4ba8-c6ea-8da9-a678" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a210-6e94-d958-163a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa34-986c-d649-6818" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="eeba-f0ed-19db-2dad" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="6ca6-fd7f-c3d4-83a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="326c-5578-88eb-1e5a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d02-56cf-93a4-3f3b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a30-39c3-9902-63f6" name="Drake Marksman" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c44a-40ba-6f55-0409" name="Drake Marksman" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Slow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0f60-490b-8bde-2aa4" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="ac6f-49f3-3642-af4a" name="Slow" hidden="false" targetId="717a-eafb-e1e2-10ae" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0560-e2de-b1cc-7301" name="New CategoryLink" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ce1c-9408-762a-1980" name="Upgrade List N" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="28c1-6e0a-18ea-e344" name="Upgrade with:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="a833-4b4c-6dbf-a203" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="a0dd-a1b3-1242-27ce" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38d-5d89-2fe0-e1a5" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c336-8929-10d2-705c" name="Replace Fire Rifle:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9544-b066-df9a-a03e">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e429-e748-67e3-0403" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a032-a5b7-ca96-34d0" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9544-b066-df9a-a03e" name="Fire Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="7bb0-51ad-c664-5f64" name="Fire Rifle" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="03fd-9214-f39f-4e09">18&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                        <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+                        <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="7667-317a-27d8-b641" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry id="8427-094d-f54f-fbc6" name="Torpedo Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="5f7e-bba0-c6ea-7280" name="Torpedo Rifle" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="03fd-9214-f39f-4e09">24&quot;</characteristic>
+                        <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                        <characteristic name="AP" typeId="4c20-cf91-0aef-5454">3</characteristic>
+                        <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Deadly(3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="900a-a5af-58d6-f499" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+                    <infoLink id="2bbb-b627-7daf-7f91" name="Deadly(X)" hidden="false" targetId="3503-7a6e-1bd3-c4b8" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="8e52-c9af-57a3-f36a" name="2x Fire Pistols" hidden="false" collective="false" import="true" targetId="8b10-752c-737d-9013" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0f52-145d-4f18-dcc2" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+        <entryLink id="1b58-b165-f28f-e152" name="Upgrade List J" hidden="false" collective="false" import="true" targetId="d6a5-04f2-6c63-909e" type="selectionEntryGroup"/>
+        <entryLink id="fb82-2bab-820c-fde0" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="6ca6-fd7f-c3d4-83a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc9-0ed9-a910-a88a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a89-a0b2-e38e-a566" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e9e-87c0-3374-1bd6" name="Beast Rider" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ebc6-3696-8b2a-1ff0" name="Beast Rider" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">4+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f550-445a-a3b7-3416" name="Impact(X)" hidden="false" targetId="0e1e-2c09-7f38-4092" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="859b-7c18-fdc6-549f" name="New CategoryLink" hidden="false" targetId="616e-b2e4-0c2a-f24f" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="53a6-860b-4ab4-be88" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4128-f74d-92b0-6e65" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbc5-7cd4-0192-bb55" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="90a1-667f-aa79-954e" name="Claws" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+                <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                <characteristic name="AP" typeId="4c20-cf91-0aef-5454">-</characteristic>
+                <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="60c2-32da-2e57-5a8e" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+        <entryLink id="2ad9-07a0-3941-9afc" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="6ca6-fd7f-c3d4-83a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46a8-0e95-d38c-2a51" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="586f-4a95-d793-d5df" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb99-e71e-6eae-e17f" name="War-Bear Rider" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7e1e-addc-6bb3-5f0b" name="War-Bear Rider" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">3+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fearless, Impact(3), Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="39ac-23f0-45d2-7671" name="Fearless" hidden="false" targetId="84c4-f9e3-94a3-7166" type="rule"/>
+        <infoLink id="3916-c685-21bf-60b2" name="Impact(X)" hidden="false" targetId="0e1e-2c09-7f38-4092" type="rule"/>
+        <infoLink id="225b-295b-99cc-481a" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0d9f-3625-dd49-29b2" name="New CategoryLink" hidden="false" targetId="7956-6673-3ac7-3fb1" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c90d-c68c-e495-7fc1" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ffb-cdc4-f7e1-ed67" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7710-34f7-d009-af6a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7a08-9f47-db43-bdeb" name="Claws" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+                <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">3</characteristic>
+                <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+                <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="cf13-5e82-0612-b303" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="86e4-25cf-adf5-9f87" name="Upgrade List O" hidden="false" collective="false" import="true" defaultSelectionEntryId="d33e-d34b-1207-e3aa">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5682-764c-2075-ecb1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="446b-6ab1-3694-13e6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="908d-a2f1-d7c8-2412" name="Axe-Halberd" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b3ba-f3ee-585f-f29d" name="Axe-Halberd" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+                    <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+                    <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+                    <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="bd98-c02c-9973-f565" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+                <infoLink id="bd52-ecf0-5076-9964" name="Rending" hidden="false" targetId="84f8-1497-2a62-1e50" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="d33e-d34b-1207-e3aa" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="6ca6-fd7f-c3d4-83a3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8561-fb47-8444-da56" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="80.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="a0dd-a1b3-1242-27ce" name="Shrapnel Bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3bc5-290f-b299-98a2" name="Shrapnel Bombs" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Blast(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d228-22a0-a7d0-ca22" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+        <infoLink id="43d1-29f4-57c1-3d9c" name="Blast(X)" hidden="false" targetId="b071-8dca-c2f4-c02e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b10-752c-737d-9013" name="2x Fire Pistols" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b901-40bf-1bb4-f296" name="Fire Pistol" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f057-f9a1-f178-14f6" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="ecff-62a8-7f3a-a066" name="Upgrade List A" hidden="false" collective="false" import="true" defaultSelectionEntryId="f0fd-512e-e32c-032a">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c93-ab71-0237-c089" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8196-c701-a392-a8e6" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f0fd-512e-e32c-032a" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="ed0e-c773-c742-7113" type="selectionEntry"/>
+        <entryLink id="ab09-b15e-43f6-0927" name="2x Hand Weapons (A3)" hidden="false" collective="false" import="true" targetId="7a42-1ec2-c39c-047d" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d7a0-8be1-f16c-714f" name="Halberd (A3)" hidden="false" collective="false" import="true" targetId="44a5-d048-4f98-c439" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="706b-5061-2c81-7e91" name="Great Weapon (A3)" hidden="false" collective="false" import="true" targetId="0217-4731-040c-f688" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="0eea-bff8-fcc7-7092" name="Spear (A3)" hidden="false" collective="false" import="true" targetId="5525-bdcc-1b60-a676" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6770-5543-43ef-0ca5" name="Upgrade List B" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d592-6779-7f88-13e6" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="b7ae-1b8a-d704-1deb" name="Pistol" hidden="false" collective="false" import="true" targetId="515b-e599-5388-9593" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f7b7-abc5-54f4-838c" name="2x Pistols" hidden="false" collective="false" import="true" targetId="09e8-9d91-2417-6db9" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e3e9-f3dd-9a13-38c0" name="Rifle" hidden="false" collective="false" import="true" targetId="47b2-44f0-0eb9-8176" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d488-3c49-e9f7-b9b0" name="Crossbow" hidden="false" collective="false" import="true" targetId="4ba8-c6ea-8da9-a678" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9444-11b6-cc9f-7e8e" name="Upgrade List I" hidden="false" collective="false" import="true" defaultSelectionEntryId="98a0-4217-c5eb-4a82">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2746-1b68-c9ec-2f0d" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="befe-9554-10de-fe11" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="98a0-4217-c5eb-4a82" name="Hand Weapon (A1)" hidden="false" collective="false" import="true" targetId="6ca6-fd7f-c3d4-83a3" type="selectionEntry"/>
+        <entryLink id="3c37-2357-dc1f-c739" name="2x Hand Weapons (A1)" hidden="false" collective="false" import="true" targetId="e436-bd35-d3f8-d833" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="3e3a-7dc4-0823-929f" name="Halberd (A1)" hidden="false" collective="false" import="true" targetId="8819-ca24-e478-86f5" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="27b4-c131-92f4-c840" name="Great Weapon (A1)" hidden="false" collective="false" import="true" targetId="96f5-4bb8-2fd8-e313" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c057-aaef-b80f-3230" name="Spear (A1)" hidden="false" collective="false" import="true" targetId="7b55-668e-4949-2de4" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d6a5-04f2-6c63-909e" name="Upgrade List J" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="98a2-020b-0c84-c1d5" name="Shrapnel Bombs" hidden="false" collective="false" import="true" targetId="a0dd-a1b3-1242-27ce" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e2-bb5e-4d61-2c63" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8702-7c38-535c-b3f1" name="2x Fire Pistols" hidden="false" collective="false" import="true" targetId="8b10-752c-737d-9013" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac6-d8ba-cb70-4172" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="0f14-81db-fbbb-891a" name="Drill" publicationId="073c-7278-586b-1fc6" hidden="false">
+      <description>This model and up to half of the units in your army may be deployed from Ambush at up to 3” from enemy units (must deploy within 3” of the hero).</description>
+    </rule>
+    <rule id="c32a-433c-c08d-e1a9" name="Grudge" publicationId="073c-7278-586b-1fc6" hidden="false">
+      <description>The hero and all friendly units within 12” get +1 to their melee rolls.</description>
+    </rule>
+    <rule id="284a-9d3e-b2d5-3ae6" name="Slayer" publicationId="073c-7278-586b-1fc6" hidden="false">
+      <description>This model gets AP(+2) when fighting units with Tough(3) or higher.</description>
+    </rule>
+    <rule id="ae8c-e1e3-66bb-ec4e" name="Swift" publicationId="073c-7278-586b-1fc6" hidden="false">
+      <description>The hero may ignore the Slow rule.</description>
+    </rule>
+    <rule id="b8a7-2041-7a21-dfff" name="Wizard Spells (Dwarves)" publicationId="073c-7278-586b-1fc6" hidden="false">
+      <description>
+- Spite Rune (4+): Target enemy unit within 12” gets -1 to hit in melee next time it fights.
+- Smiting Rune (4+): Target enemy unit within 12” takes 4 automatic hits. 
+- Battle Rune (5+): Target friendly unit within 12” gets +6” next time it moves.
+- Breaking Rune (5+): Target enemy model within 12” takes 2 automatic hits with AP(2). 
+- Drill Rune (6+): Target piece of terrain within 6” may be moved by up to 6” in any direction or may be removed from play.
+- Cleaving Rune (6+): Target 2 enemy units within 12” take 6 automatic hits each.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
