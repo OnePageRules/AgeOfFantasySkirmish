@@ -48,6 +48,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cd93-5d68-e40c-cbfd" name="Blood Warrior " hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8aa3-467d-665c-3f2b" name="Blood Warrior " hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">5+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Furous</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1a17-aa6b-ab35-b5d1" name="Furious" hidden="false" targetId="990b-f4c7-ba03-73c7" type="rule"/>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="99eb-b4fd-0119-d601" name="Upgrade List C" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -81,6 +93,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="6354-ec24-87d7-81b4" name="Blood Hound" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2636-314a-e522-8fa0" name="Blood Hound" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Fast, Furious, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="865c-c70e-5e8e-a50b" name="Fast" hidden="false" targetId="0158-3d4e-679c-7af8" type="rule"/>
+        <infoLink id="ea4c-e2c3-8f2a-a65e" name="Furious" hidden="false" targetId="990b-f4c7-ba03-73c7" type="rule"/>
+        <infoLink id="7b25-7463-7a2b-5b05" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b43e-e570-5e2b-531c" name="Upgrade List D" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
@@ -298,6 +324,9 @@
       <infoLinks>
         <infoLink id="2dec-7f36-714c-210f" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="12b3-effd-daf5-8171" name="Spiked Collar" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -343,6 +372,9 @@
       <infoLinks>
         <infoLink id="07be-3992-4b71-2fee" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
