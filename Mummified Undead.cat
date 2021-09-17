@@ -20,7 +20,7 @@
         <categoryLink id="e9c0-c0ae-6afc-5fee" name="Heroes" hidden="false" targetId="7dbf-9ff1-ee5d-3122" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="d054-df72-4093-bfbe" name="New SelectionEntryGroup" hidden="false" collective="false" import="true" targetId="cbe8-fe27-cbda-5bc1" type="selectionEntryGroup"/>
+        <entryLink id="d054-df72-4093-bfbe" name="Upgrade List A:" hidden="false" collective="false" import="true" targetId="cbe8-fe27-cbda-5bc1" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="3201-e623-87ff-8244" value="50.0"/>
@@ -164,7 +164,14 @@
               </costs>
             </entryLink>
             <entryLink id="550c-7045-4622-1281" name="Hand Weapon (A3)" hidden="false" collective="false" import="true" targetId="ed0e-c773-c742-7113" type="selectionEntry"/>
-            <entryLink id="d096-c92f-9a11-b7e4" name="Lance (A3)" hidden="true" collective="false" import="true" targetId="7001-3a97-fade-44b8" type="selectionEntry">
+            <entryLink id="d096-c92f-9a11-b7e4" name="Lance (A3)" hidden="false" collective="false" import="true" targetId="7001-3a97-fade-44b8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="975b-9757-aa13-9898" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <rules>
                 <rule id="9002-81b6-9fc5-e2eb" name="Lance (A3)" hidden="false">
                   <description>-mount only</description>
