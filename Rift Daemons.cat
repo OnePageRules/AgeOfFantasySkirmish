@@ -60,6 +60,9 @@
       <infoLinks>
         <infoLink id="1a17-aa6b-ab35-b5d1" name="Furious" hidden="false" targetId="990b-f4c7-ba03-73c7" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="edcb-5a67-f63f-e8b2" name="Infantry" hidden="false" targetId="2502-4898-c409-68de" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="99eb-b4fd-0119-d601" name="Upgrade List C" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -107,6 +110,9 @@
         <infoLink id="ea4c-e2c3-8f2a-a65e" name="Furious" hidden="false" targetId="990b-f4c7-ba03-73c7" type="rule"/>
         <infoLink id="7b25-7463-7a2b-5b05" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="93f7-c959-46d2-a3fb" name="Beasts" hidden="false" targetId="f052-4b39-6d8b-2d6a" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b43e-e570-5e2b-531c" name="Upgrade List D" hidden="false" collective="false" import="true">
           <selectionEntryGroups>
