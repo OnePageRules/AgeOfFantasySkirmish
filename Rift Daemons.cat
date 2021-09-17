@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ea88-3097-9610-281a" name="Rift Daemons" revision="1" battleScribeVersion="2.03" authorName="DeadSeacow" library="false" gameSystemId="fa7e-2f5d-e3ed-1664" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="08f4-0eae-d092-fdfb" name="Champion of War" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bd75-5fe9-b95d-c768" name="Champion of War" hidden="false" typeId="5632-cd4a-f4e0-fb5c" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="3245-30e0-1640-60e0" value="Furious, Hero, Tough(3)"/>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Quality" typeId="c0c3-8992-7b89-d803">3+</characteristic>
+            <characteristic name="Defense" typeId="3ae7-33a0-8483-1daf">4+</characteristic>
+            <characteristic name="Special Rules" typeId="3245-30e0-1640-60e0">Furious, Hero, Tough(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c5dd-a607-d7df-5e09" name="Furious" hidden="false" targetId="990b-f4c7-ba03-73c7" type="rule"/>
+        <infoLink id="c606-91bf-2cf4-fc3a" name="Hero" hidden="false" targetId="b321-a549-78ac-73e4" type="rule"/>
+        <infoLink id="a3c4-1070-dc49-65d1" name="Tough(X)" hidden="false" targetId="b155-f4c4-8c7a-77ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf8b-c268-c6e1-7121" name="Heroes" hidden="false" targetId="7dbf-9ff1-ee5d-3122" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e740-10d9-7c41-2ec5" name="Upgrade List A" hidden="false" collective="false" import="true" targetId="4223-dbf0-8785-ece4" type="selectionEntryGroup">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="14c8-1c4e-20b7-13c4" name="Upgrade with:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb39-b099-5f41-e303" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="fd48-fe7f-b619-902a" name="Symbol of War(4+)" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="56a1-ef43-d6f2-cc4d" name="Symbols of War(X+)" hidden="false" targetId="fa1a-1686-2123-1935" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd93-5d68-e40c-cbfd" name="Blood Warrior " hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="99eb-b4fd-0119-d601" name="Upgrade List C" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1681-b8c6-8199-53c6" name="Command Group" hidden="false" collective="false" import="true" targetId="ac50-4fcb-2823-a56a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d2b2-b919-87aa-1a80" name="Upgrade List B" hidden="false" collective="false" import="true" targetId="89f2-b7da-e84a-157e" type="selectionEntryGroup">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="f7e2-e7cd-fd0c-67b9" name="Upgrade with:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e6-1a37-48bb-5964" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8b16-5385-3cdd-7d40" name="Banner of War" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="f325-35e4-42ff-1f50" name="Banner of War" hidden="false" targetId="5dba-5bbc-bc85-7114" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="45.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6354-ec24-87d7-81b4" name="Blood Hound" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b43e-e570-5e2b-531c" name="Upgrade List D" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c09e-41a7-46fb-408c" name="Upgrade with:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d705-ca9b-e339-9039" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="2235-d58e-6164-d5a4" name="Ambush" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="b295-7a58-b543-6bcd" name="Ambush" hidden="false" targetId="6e44-9498-69ea-96fd" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="13a2-152e-10c6-74bd" name="Upgrade with one:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="3959-e262-aa88-d18c" name="Upgrade List D" hidden="false" collective="false" import="true" targetId="0438-95fd-4321-a5bc" type="selectionEntryGroup"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="42db-e57d-b036-b2ab" name="Claws" hidden="false" collective="false" import="true" targetId="c104-b5e9-f015-071a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f77d-5fd2-d421-b402" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ff-a5d6-950f-7920" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="f08f-95aa-d893-e329" name="Flame Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a6ec-0701-4871-e9cd" name="Flame Axe" publicationId="3e78-c94e-cd84-9802" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">3</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f9cb-f53e-b238-fb4c" name="AP(X)" publicationId="3e78-c94e-cd84-9802" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90cb-9a9f-332d-3cfd" name="Flame Hammer" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9e8f-1a77-72d1-343b" name="Flame Hammer" publicationId="3e78-c94e-cd84-9802" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">2</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4bd4-4c07-299f-f7eb" name="AP(X)" publicationId="3e78-c94e-cd84-9802" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+        <infoLink id="3da8-f84c-09d2-6f58" name="Rending" publicationId="3e78-c94e-cd84-9802" hidden="false" targetId="84f8-1497-2a62-1e50" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f413-9032-c3f1-2b15" name="Flame Spear" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ceb6-7278-8d3d-ff04" name="Flame Spear" publicationId="3e78-c94e-cd84-9802" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">4</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Deadly(3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="503e-aa14-0cf6-e32a" name="AP(X)" publicationId="3e78-c94e-cd84-9802" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+        <infoLink id="6634-e745-fa02-ce26" name="Deadly(X)" publicationId="3e78-c94e-cd84-9802" hidden="false" targetId="3503-7a6e-1bd3-c4b8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4848-7186-81f7-bb30" name="Fire Whip" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9023-a5e6-588a-3463" name="Fire Whip" publicationId="3e78-c94e-cd84-9802" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">2</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cdd-3692-b167-1259" name="Fire Lash" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="16fe-7fa0-8759-9b32" name="Fire Lash" publicationId="3e78-c94e-cd84-9802" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">2</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d088-63c1-b109-f306" name="AP(X)" publicationId="3e78-c94e-cd84-9802" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22ea-f88f-5700-7cab" name="Halberd" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2de9-29c8-fd62-ca25" name="Halberd" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Rending</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2004-d9b6-92c4-fb97" name="Rending" hidden="false" targetId="84f8-1497-2a62-1e50" type="rule"/>
+        <infoLink id="94f2-cf0b-7543-914e" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="262a-e355-773b-89f3" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3f7c-fdae-bae9-909a" name="Great Weapon" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">4</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b3ba-e02b-f45b-dbe6" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ea7-4b29-bf91-14a5" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="aafb-cf93-61b4-315a" name="Spear" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">Phalanx</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cb95-a4b8-adf4-6834" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+        <infoLink id="6040-b3df-4905-0bee" name="Phalanx" hidden="false" targetId="e66c-546b-d077-ab43" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="037f-8701-5d88-b375" name="2x Hand Weapons" publicationId="3e78-c94e-cd84-9802" page="Rift Daemons v2.7" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1902-ad70-6985-43fd" name="2x Hand Weapons" publicationId="3e78-c94e-cd84-9802" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="854c-9197-4c15-ca21" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e135-0280-17af-48eb" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="32e9-a0a7-7b47-d698" name="Hand Weapon" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">1</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">2</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2dec-7f36-714c-210f" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="12b3-effd-daf5-8171" name="Spiked Collar" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bbad-154a-ed3a-18fa" name="Spiked Collar" hidden="false" typeId="cba9-e7b0-fa07-ff2f" typeName="Enhancement">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="a53a-6399-16ae-e98f">Impact(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0d33-7a8b-17be-7de1" name="Impact(X)" hidden="false" targetId="0e1e-2c09-7f38-4092" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dc2-f054-c854-a02e" name="Anti-Wizard Collar" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5cf8-0af4-1a53-22d5" name="Anti-Wizard Collar" hidden="false" typeId="cba9-e7b0-fa07-ff2f" typeName="Enhancement">
+          <characteristics>
+            <characteristic name="Special Rules" typeId="a53a-6399-16ae-e98f">Resistance(1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e455-750f-8ab5-454e" name="Resistance(X)" hidden="false" targetId="9b86-fd3e-3085-6e48" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="3201-e623-87ff-8244" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c104-b5e9-f015-071a" name="Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ed44-0fad-36f0-84d7" name="Claws" hidden="false" typeId="d6d7-88e2-c714-5bc7" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="03fd-9214-f39f-4e09">M</characteristic>
+            <characteristic name="Attacks" typeId="257d-bfa3-0e25-622b">2</characteristic>
+            <characteristic name="AP" typeId="4c20-cf91-0aef-5454">1</characteristic>
+            <characteristic name="Special Rules" typeId="1b5b-a0db-857c-3169">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="07be-3992-4b71-2fee" name="AP(X)" hidden="false" targetId="554a-0e4d-cfcb-1b7b" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="4223-dbf0-8785-ece4" name="Upgrade List A" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7057-b9da-945d-7470" name="1. Select Weapon" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e79-0cf8-9b00-ebbe">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f923-2944-9a1c-9396" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e431-a9c0-03fb-cc13" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d027-44c6-3f84-bb6d" name="Flame Hammer" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" targetId="90cb-9a9f-332d-3cfd" type="selectionEntry"/>
+            <entryLink id="836e-c746-4381-b863" name="Flame Spear" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" targetId="f413-9032-c3f1-2b15" type="selectionEntry"/>
+            <entryLink id="2e79-0cf8-9b00-ebbe" name="Flame Axe" hidden="false" collective="false" import="true" targetId="f08f-95aa-d893-e329" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0f2b-b647-bb72-848b" name="2. Upgrade with one:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="327f-3956-be55-fd75" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c6d1-9f8e-fc6f-169d" name="Fire Whip" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" targetId="4848-7186-81f7-bb30" type="selectionEntry"/>
+            <entryLink id="414e-59cd-20d0-3bc3" name="Fire Lash" publicationId="3e78-c94e-cd84-9802" hidden="false" collective="false" import="true" targetId="0cdd-3692-b167-1259" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="89f2-b7da-e84a-157e" name="Upgrade List B" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a0ef-031d-98cd-8233" name="Select Weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="3bd3-849e-adda-af3e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a30d-1e27-a169-0f80" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b4e-a890-35f9-f918" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6c94-8735-2333-8145" name="2x Hand Weapons" hidden="false" collective="false" import="true" targetId="037f-8701-5d88-b375" type="selectionEntry"/>
+            <entryLink id="74d4-f059-83c1-dbe6" name="Great Weapon" hidden="false" collective="false" import="true" targetId="262a-e355-773b-89f3" type="selectionEntry"/>
+            <entryLink id="9cd6-5ca4-4a82-1827" name="Halberd" hidden="false" collective="false" import="true" targetId="22ea-f88f-5700-7cab" type="selectionEntry"/>
+            <entryLink id="12a0-1047-5609-9757" name="Spear" hidden="false" collective="false" import="true" targetId="7ea7-4b29-bf91-14a5" type="selectionEntry"/>
+            <entryLink id="3bd3-849e-adda-af3e" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="e135-0280-17af-48eb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0438-95fd-4321-a5bc" name="Upgrade List D" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d93-bcdb-c864-91a5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="622f-db6c-c45e-dc5a" name="Spiked Collar" hidden="false" collective="false" import="true" targetId="12b3-effd-daf5-8171" type="selectionEntry"/>
+        <entryLink id="8c1f-ebf4-8cd4-07a7" name="Anti-Wizard Collar" hidden="false" collective="false" import="true" targetId="7dc2-f054-c854-a02e" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="5dba-5bbc-bc85-7114" name="Banner of War" publicationId="3e78-c94e-cd84-9802" hidden="false">
+      <description>This unit and all friendly units within 12&quot; get Impact(1).</description>
+    </rule>
+    <rule id="9b86-fd3e-3085-6e48" name="Resistance(X)" publicationId="3e78-c94e-cd84-9802" hidden="false">
+      <description>Enemy wizard within 12&quot; of this unit get -X teir rolls when casting spells.  </description>
+    </rule>
+    <rule id="fa1a-1686-2123-1935" name="Symbols of War(X+)" publicationId="3e78-c94e-cd84-9802" hidden="false">
+      <description>When the hero is activated roll one die. On an X+ one enemy unit within 18&quot; takes 3 hits with AP(2).</description>
+    </rule>
+  </sharedRules>
+</catalogue>
